@@ -1,4 +1,4 @@
-# Adversarial Precision Sensing w/ Healthcare Applications
+# Adversarial Precision Sensing
 
 This is the code repository for *Adversarial Precision Sensing with Healthcare Applications* (ICDM'20) by Fengyi Tang, Lifan Zeng, Fei Wang and Jiayu Zhou. 
 Here, you will find instructions for:
