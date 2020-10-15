@@ -1,6 +1,12 @@
-# Budget-Constrained Precision Sensing and Its Healthcare Applications
+# Adversarial Precision Sensing w/ Healthcare Applications
 
-This is the code repository for manuscript 4670: *"Budget-Constrained Precision Sensing and Its Healthcare Applications"* by *Anonymous Authors*.
+This is the code repository for *Adversarial Precision Sensing with Healthcare Applications* (ICDM'20) by Fengyi Tang, Lifan Zeng, Fei Wang and Jiayu Zhou. 
+Here, you will find instructions for:
+
+* preparing MIMIC-III code to test out experiments
+* preparing synthetic data from the paper
+* `models.py` file containing the FS and PL models
+* `main.py` training and evaluation loops
 
 ## Usages
 ### Requirements
@@ -132,3 +138,18 @@ Go to `X[:, xx:yy, zz:aa]` and `ground_truth[:, xx:yy, zz:aa]` and change the `x
 Similarly, in the `y` label loop, change `if (np.sum(X[i][xx:yy, zz:aa]) + np.sum(...) ... > 0)` to the same set of `xx:yy` and `zz:aa` for `ground_truth`. 
 
 To visualize the sensed features, use `visualize_mask(mask[i])` for the _i-th_ test sample. 
+
+### References ###
+
+If you find this repository helpful for your work, please consider citing us.
+<!-- 
+```
+@article{Tang2020AdversarialPS,
+	title={Adversarial Precision Sensing with Healthcare Applications},
+	author={Fengyi Tang and Lifan Zeng and Fei Wang and Jiayu Zhou},
+	journal={IEEE International Conference on Data Mining (ICDM)},
+  	year={2020},
+  	pages={000-999}
+
+}
+``` -->
