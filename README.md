@@ -26,7 +26,7 @@ Here, you will find instructions for:
 Please apply for access to the publicly available MIMIC-III DataBase via `https://www.physionet.org/`. 
 
 ### Files ###
-* `utils.py`: utilities file containing visualization methods, variable conversion to GPU compatilibity form, subsampling, ... etc.
+* `utils.py`: utilities file containing visualization methods, variable conversion to GPU compatibility form, subsampling, ... etc.
 * `models.py`: contains all the model classes for inference models as well as the FS and PL. 
 * `preprocessing.py`: preprocesses local MIMIC-III data into `X` and `y`.
 * `main.py`: runs the main training loop, testing, and trade-off studies.  
